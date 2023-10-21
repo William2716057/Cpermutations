@@ -9,7 +9,7 @@
 //{
 //    std::cout << "Hello World!\n";
 //}
-
+//C code to output permutations of a given number
 //swap values of two variables using temp variable 
 void swap(char *x, char* y) {
 	char temp = *x;
