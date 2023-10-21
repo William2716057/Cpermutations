@@ -1,6 +1,8 @@
 // Cpermutations.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include <iostream>
 
 //int main()
@@ -29,10 +31,8 @@ void perms(char* lst, int start, int end) {
 }
 
 int main() {
-	char lst[100]; //array for storing input
-	printf("enter numbers: ");
-	scanf("%s", lst);
+	char lst[] = "123456";
+	int n = strlen(lst);
 	perms(lst, 0, n - 1);
 	return 0;
 }
-
